@@ -156,8 +156,6 @@ This course will help you to learn React by building Netflix. It means that you 
 <a id="live-demo"></a>
 ## __1. Live Demo.__
 
-- https://7ckdg.csb.app/
-
 <a id="introduction-about-the-creator"></a>
 ## __2. Introduction about the Creator.__
 
