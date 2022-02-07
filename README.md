@@ -3,16 +3,14 @@
 <img src="./md-images/learning-react-by-building-netflix.png" alt="learn-react-by-building-netflix"/>
 
 > Click :star: if you like the project. Pull Request are highly appreciated :heart:
->
-> You can check the advance folder for more React advance concepts.
 
 I'm Hiep. I work as a full-time software engineer. Most of my open-source projects are focused on one thing - to help people learn 📚. 
 
-The repository helps you learn React by buiding Netflix. It means that you are learning React.js by building a real-life project. I will explain concepts in detail. This post is the first part in my series and it is suitable for beginners.
+The repository helps you learn React by building Netflix. It means that you are learning React.js by building a real-life project. I will explain the concepts in detail.
 
 My post is about __Learn React By Building Netflix__ on Dev.to: https://dev.to/hieptl/learn-react-by-building-netflix-1127
 
-> If you feel the repository is useful, please help me share the post and give me a. It will make me feel motivation to work even harder. I will try to make many open sources and share to the community.
+> If you feel the repository is useful, please help me share the post and give me a :star: It will make me feel the motivation to work even harder. I will try to make many open sources and share them with the community.
 >
 
 ## __Preface__
@@ -36,13 +34,13 @@ This course will help you to learn React by building Netflix. It means that you 
 
 > Agenda:
 >
-> -  Episode 1: Introduce about the course, common rendering types and import sample data to Firebase and understand about React elements, React components by building Netfix's header component.
+> -  Episode 1: Introduce the course, common rendering types, and import sample data to Firebase and understand React elements, React components by building Netflix's header component.
 >
-> - Episode 2: Create Row component, learn how to get data from Firebase and understand about useEffect, props, state, useState by refactoring the Row component.
+> - Episode 2: Create Row component, learn how to get data from Firebase, and understand about useEffect, props, state, useState by refactoring the Row component.
 >
-> - Episode 3: Learn React Router to navigate between pages and create "Sign In" page.
+> - Episode 3: Learn React Router to navigate between pages and create a "Sign In" page.
 >
-> - Episode 4: Learn how to communicate between parent components and child components by building "movie detail" page.
+> - Episode 4: Learn how to communicate between parent components and child components by building a "movie detail" page.
 >
 > - Episode 5: Summary knowledge and deploy the project to Firebase.
 
@@ -51,44 +49,41 @@ This course will help you to learn React by building Netflix. It means that you 
 | --- | --------- |
 |0  | [How to Run the Project.](#how-to-run-the-project) |
 |1  | [Live Demo.](#live-demo) |
-|2  | [Introduction about the Creator.](#introduction-about-the-creator) |
-|2.1  | [&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Greenwich University.](#greenwich-university) |
-|2.2  | [&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hitachi Vantara Vietnam.](#hitachi-vantara-vietnam) |
-|3  | [Prequisites.](#prequisites) |
-|3.1  | [&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Softwares.](#softwares) |
-|3.2  | [&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Technical Skills.](#technical-skills) |
-|3.3  | [&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Materials.](#materials) |
-|4  | [Purposes of the Course.](#purposes-of-the-course) |
-|4.1  | [&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Final Project.](#final-project) |
-|4.2  | [&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Job.](#job) |
-|5  | [Common Rendering Types.](#common-rendering-types) |
-|5.1  | [&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Server Side Rendring.](#server-side-rendering) |
-|5.1.1| [&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;How Server Side Rendering Work.](#how-server-side-rendering-work) |
-|5.1.2| [&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Advantages of Server Side Rendering.](#the-advantages-of-server-side-rendering) |
-|5.1.3| [&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Disadvantages of Server Side Rendering.](#the-disadvantages-of-server-side-rendering) |
-|5.2  | [&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Client Side Rendring & Single Page Application.](#client-side-rendering-and-single-page-application) |
-|5.2.1| [&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;How Client Side Rendering Work.](#how-client-side-rendering-work) |
-|5.2.2| [&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Advantages of Client Side Rendering.](#the-advantages-of-client-side-rendering) |
-|5.2.3| [&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Disadvantages of Client Side Rendering.](#the-disadvantages-of-client-side-rendering) |
-|6  | [Introduction about React.](#introduction-about-react) |
-|6.1  | [&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;What.](#what) |
-|6.2  | [&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Why & Advantages.](#why-and-advantages) |
-|6.3  | [&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;When & Disadvantages.](#when-and-disadvantages) |
-|6.4  | [&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;How.](#how) |
-|6.5  | [&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;What Makes React so Fast.](#what-makes-react-so-fast) |
-|7  | [Building Netflix.](#building-netflix) |
-|7.1  | [&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;How to Import Sample Data to Firebase.](#how-to-import-sample-data-to-firebase) |
-|7.2  | [&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create Web Application on Firebase.](#create-web-application-on-firebase) |
-|7.3  | [&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Prequesites.](#netflix-prequesites) |
-|7.4  | [&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Build Header - Home Page.](#build-header-home-page) |
-|7.5  | [&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Build Row - Home Page.](#build-row-home-page) |
-|7.6  | [&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Apply React Router.](#apply-react-router) |
-|7.7  | [&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Set Up Firebase Authentication.](#set-up-firebase-authentication) |
-|7.8  | [&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Build Netflix Login Page.](#build-netflix-login-page) |
-|8  | [Deploy React to Firebase.](#deploy-react-to-firebase) |
-|9  | [Summary.](#summary) |
-|10  | [Useful Resources to Learn React.](#useful-resources-to-learn-react) |
-|11  | [References.](#references) |
+|2  | [Prequisites.](#prequisites) |
+|2.1  | [&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Softwares.](#softwares) |
+|2.2  | [&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Technical Skills.](#technical-skills) |
+|2.3  | [&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Materials.](#materials) |
+|3  | [Purposes of the Course.](#purposes-of-the-course) |
+|3.1  | [&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Final Project.](#final-project) |
+|3.2  | [&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Job.](#job) |
+|4  | [Common Rendering Types.](#common-rendering-types) |
+|4.1  | [&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Server Side Rendring.](#server-side-rendering) |
+|4.1.1| [&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;How Server Side Rendering Work.](#how-server-side-rendering-work) |
+|4.1.2| [&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Advantages of Server Side Rendering.](#the-advantages-of-server-side-rendering) |
+|4.1.3| [&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Disadvantages of Server Side Rendering.](#the-disadvantages-of-server-side-rendering) |
+|4.2  | [&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Client Side Rendring & Single Page Application.](#client-side-rendering-and-single-page-application) |
+|4.2.1| [&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;How Client Side Rendering Work.](#how-client-side-rendering-work) |
+|4.2.2| [&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Advantages of Client Side Rendering.](#the-advantages-of-client-side-rendering) |
+|4.2.3| [&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Disadvantages of Client Side Rendering.](#the-disadvantages-of-client-side-rendering) |
+|5  | [Introduction about React.](#introduction-about-react) |
+|5.1  | [&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;What.](#what) |
+|5.2  | [&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Why & Advantages.](#why-and-advantages) |
+|5.3  | [&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;When & Disadvantages.](#when-and-disadvantages) |
+|5.4  | [&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;How.](#how) |
+|5.5  | [&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;What Makes React so Fast.](#what-makes-react-so-fast) |
+|6  | [Building Netflix.](#building-netflix) |
+|6.1  | [&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;How to Import Sample Data to Firebase.](#how-to-import-sample-data-to-firebase) |
+|6.2  | [&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create Web Application on Firebase.](#create-web-application-on-firebase) |
+|6.3  | [&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Prequesites.](#netflix-prequesites) |
+|6.4  | [&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Build Header - Home Page.](#build-header-home-page) |
+|6.5  | [&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Build Row - Home Page.](#build-row-home-page) |
+|6.6  | [&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Apply React Router.](#apply-react-router) |
+|6.7  | [&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Set Up Firebase Authentication.](#set-up-firebase-authentication) |
+|6.8  | [&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Build Netflix Login Page.](#build-netflix-login-page) |
+|7  | [Deploy React to Firebase.](#deploy-react-to-firebase) |
+|8  | [Summary.](#summary) |
+|9  | [Useful Resources to Learn React.](#useful-resources-to-learn-react) |
+|10  | [References.](#references) |
 
 
 ## __Table of Images.__
@@ -156,117 +151,93 @@ This course will help you to learn React by building Netflix. It means that you 
 <a id="live-demo"></a>
 ## __1. Live Demo.__
 
-<a id="introduction-about-the-creator"></a>
-## __2. Introduction about the Creator.__
-
-<a id="greenwich-university"></a>
-### __2.1. Greenwich University.__
-
-- Valedictorian.
-
-- GPA 4.0 / 4.0.
-
-- Machine Learning paper - Recommendation System - IEEE/ICACT2020.
-
-- Co-Founder / Mentor IT club.
-
-<a id="hitachi-vantara-vietnam"></a>
-### __2.2. Hitachi Vantara Vietnam.__
-
-- Employee of the year.
-
-- Second prize - innovation contest.
-
-- Techlead - HN branch.
-
-- One of CoE Leaders (Center of Excellence).
+// TODO
 
 <a id="prequisites"></a>
-## __3. Prequisites.__
+## __2. Prequisites.__
 
 <a id="softwares"></a>
-### __3.1. Softwares.__
+### __2.1. Softwares.__
 
 - Install NodeJS.
 
 - An IDE or a text editor (VSCode, Intellij, Webstorm, etc).
 
 <a id="technical-skills"></a>
-### __3.2. Technical Skills.__
+### __2.2. Technical Skills.__
 
 - Basic programming skill.
 
 - Basic HTML, CSS, JS skills.
 
 <a id="materials"></a>
-### __3.3. Materials.__
+### __2.3. Materials.__
 
-- Html, css, js (source code) was prepared because I want to focus on React and share knowledge about React. Building html and css from scratch would take a lot of time.
+- Html, CSS, js (source code) was prepared because I want to focus on React and share knowledge about React. Building HTML and CSS from scratch would take a lot of time.
 
-- README.md (the md file will contain everything about the course).
+- README.md (the MD file will contain everything about the course).
 
 - Netflix data will be used to import to Firebase. In this course, we use Firebase as our back-end service.
 
 <a id="purposes-of-the-course"></a>
-## __4. Purposes of the Course.__
+## __3. Purposes of the Course.__
 
 <a id="final-project"></a>
-### __4.1. Final Project.__
+### __3.1. Final Project.__
 
-- The course would help you have understanding about React.
+- The course would help you have an understanding of React.
 
-- You could build the final project with end-to-end solution (front-end solution using React and back-end solution using Firebase).
+- You could build the final project with an end-to-end solution (front-end solution using React and back-end solution using Firebase).
 
 <a id="job"></a>
-### __4.2. Job.__
+### __3.2. Job.__
 
-- After finishing the course, you could get a job with fresher / junior position.
+- After finishing the course, you could get a job in a fresher / junior position.
 
 <a id="common-rendering-types"></a>
-## __5. Common Renderting Types.__
+## __4. Common Renderting Types.__
 
 <a id="server-side-rendering"></a>
-### __5.1 Server Side Rendering.__
+### __4.1 Server Side Rendering.__
 
 <a id="how-server-side-rendering-work"></a>
-#### __5.1.1. How Server Side Rendering Work.__
+#### __4.1.1. How Server Side Rendering Work.__
 
 <a id="figure1"></a>
 <img src="./md-images/ssr.png" alt="drawing" width="666"/>
 
 Figure 1. Server side rendering.
 
-- When an user accesses to the website. The request would be sent to the server.
+- When a user accesses the website. The request would be sent to the server.
 
 - The web server would receive the request and connect to the database.
 
-- The web server would render HTML and return the result to the end user.
+- The web server would render HTML and return the result to the end-user.
 
 <a id="the-advantages-of-server-side-rendering"></a>
-#### __5.1.2 The Advantages of Server Side Rendering.__
+#### __4.1.2 The Advantages of Server Side Rendering.__
 
-- The initial loading time will be fast. Because almost of things will be handled on the server side.
+- The initial loading time will be fast. Because almost all of the things will be handled on the server-side.
 
 - It is supported by many frameworks (Node.js, Java, PHP, .NET, etc).
 
-- It is easy to learn and easy to understand because the developers does not need to separate front-end and back-end.
-
+- It is easy to learn and easy to understand because the developers do not need to separate front-end and back-end.
 - It is good for SEO.
 
 <a id="the-disadvantages-of-server-side-rendering"></a>
-#### __5.1.3 The Disadvantages of Server Side Rendering.__
+#### __4.1.3 The Disadvantages of Server Side Rendering.__
 
 - When the user navigates between pages. The entire page has to be loaded again.
 
 - The server side has to handle many things (connecting to the database, rendering HTML, etc).
 
-- It consume more bandwidth because the server returns the same content many times (header, footer, etc).
+- It consumes more bandwidth because the server returns the same content many times (header, footer, etc).
 
 <a id="client-side-rendering-and-single-page-application"></a>
-### __5.2 Client Side Rendering & Single Page Application.__
+### __4.2 Client Side Rendering & Single Page Application.__
 
 <a id="how-client-side-rendering-work"></a>
-#### __5.2.1. How Client Side Rendering Work.__
+#### __4.2.1. How Client Side Rendering Work.__
 
 <a id="figure2"></a>
 <img src="./md-images/csr.png" alt="drawing" width="666"/>
@@ -276,91 +247,90 @@ Figure 2. Client side rendering.
 - Rendering HTML, CSS will be handled on the browser by Javascript.
 
 <a id="the-advantages-of-client-side-rendering"></a>
-#### __5.2.2. The Advantages of Client Side Rendering.__
+#### __4.2.2. The Advantages of Client Side Rendering.__
 
 - The page would be loaded just once.
 
-- Javascript code would interact with the back-end apis to get data.
+- Javascript code would interact with the back-end APIs to get data.
 
-- Business logic could be handled on client side. Hence, the server does not need to handle all of the bussiness features.
+- Business logic could be handled on the client side. Hence, the server does not need to handle all of the business features.
 
 - Reducing the bandwidth because the applications just need to get JSON data instead of loading the entire page.
 
 - It provides better UX.
 
 <a id="the-disadvantages-of-client-side-rendering"></a>
-#### __5.2.3. The Disadvantages of Client Side Rendering.__
+#### __4.2.3. The Disadvantages of Client Side Rendering.__
 
-- The initial loading time will be slow. Because the browser has to load Javascript code, get data form the server, parse and render data.
+- The initial loading time will be slow. Because the browser has to load Javascript code, get data from the server, parse and render data.
 
 - The project will be separated into front-end and back-end.
 
-- The application could not be ran if Javascript is disabled on the browser.
+- The application could not be run if Javascript is disabled on the browser.
 
-- It is not really good for SEO.
+- It is not good for SEO.
 
 - The load time would be slow for old devices.
 
 <a id="introduction-about-react"></a>
-## __6. Introduction about React.__
+## __5. Introduction about React.__
 
 <a id="what"></a>
-### __6.1. What.__
+### __5.1. What.__
 
 - React is a front-end open source library. It will be used to build SPA (Single Page Application).
 
-- React Native can be used to build mobile applications which have ability to run on both IOS and Android.
+- React Native can be used to build mobile applications which have the ability to run on both IOS and Android.
 
 - React was created by Jordan Walke - a software engineer for Facebook.
 
 - React was first deployed on Facebook's New Feeds in 2011 and on Instagram in 2012.
 
 <a id="why-and-advantages"></a>
-### __6.2 Why & Advantages.__
+### __5.2 Why & Advantages.__
 
-- React has Virtual DOM concept so that it provides good performance.
+- React has a Virtual DOM concept so that it provides good performance.
 
-- React supports server side rendering.
+- React supports server-side rendering.
 
-- React supports one way data flow.
+- React supports one-way data flow.
 
 - React helps the developer create reusable components.
 
 <a id="when-and-disadvantages"></a>
-### __6.3. When & Disadvantages.__
+### __5.3. When & Disadvantages.__
 
-- React is just view library not a fully framework.
+- React is just a view library, not a full framework.
 
-- There is learning curve for beginners.
+- There is a learning curve for beginners.
 
 - Integrating React with MVC traditional frameworks will need 
 some configuration.
 
-- The code complexity will be increases.
+- The code complexity will be increased.
 
 - Your application may contain too many smaller components.
 
 <a id="how"></a>
-### __6.4. How.__
+### __5.4. How.__
 
 - Step 1: Install Node.js.
 
 - Step 2: Run 'npx create-react-app appName'. (appName could be replaced by the application's name).
 
 <a id="what-makes-react-so-fast"></a>
-### __6.5. What Makes React so Fast.__
+### __5.5. What Makes React so Fast.__
 
 - The answer is Virtual DOM.
 
 - There is a process which is called reconciliation.
 
-1. Whenever any underlaying data changes, the entire UI is re-rendered in Virtual DOM representation.
+1. Whenever any underlying data changes, the entire UI is re-rendered in Virtual DOM representation.
 
 <a id="figure3"></a>
 <img src="./md-images/vdom1.png" alt="drawing" width="666"/>
 
 Figure 3: How virtual dom works - Step 1.
-
 
 2. The differences between the Virtual DOM and the Real DOM are calculated.
 
@@ -369,7 +339,6 @@ Figure 3: How virtual dom works - Step 1.
 
 Figure 4. How virtual dom works - Step 2.
 
-
 3. The Real DOM will be updated with only the things that have actually changed.
 
 <a id="figure5"></a>
@@ -377,21 +346,20 @@ Figure 4. How virtual dom works - Step 2.
 
 Figure 5. How virtual dom works - Step 3.
 
-
 <a id="building-netflix"></a>
-## __7. Building Netflix.__
+## __6. Building Netflix.__
 
 <a id="how-to-import-sample-data-to-firebase"></a>
-### __7.1. How to Import Sample Data to Firebase.__
+### __6.1. How to Import Sample Data to Firebase.__
 
-- Step 1: Access the browser, go to https://firebase.google.com and click on "Sign in" button.
+- Step 1: Access the browser, go to https://firebase.google.com and click on the "Sign in" button.
 
 <a id="figure6"></a>
 <img src="./md-images/firebase1.png" alt="drawing" width="666"/>
 
 Figure 6: Firebase realtime database - Step 1.
 
-- Step 2: Sign in to Firebase by using gmail account, input user's name and password and then click on "Next" button.
+- Step 2: Sign in to Firebase by using a Gmail account, input the user's name and password and then click on the "Next" button.
 
 <a id="figure7"></a>
 <img src="./md-images/firebase2.png" alt="drawing" width="666"/>
@@ -405,7 +373,7 @@ Figure 7: Firebase realtime database - Step 2.
 
 Figure 8: Firebase realtime database - Step 3.
 
-- Step 4: Click on "Create a project" button to create Firebase project.
+- Step 4: Click on the "Create a project" button to create the Firebase project.
 
 <a id="figure9"></a>
 <img src="./md-images/firebase4.png" alt="drawing" width="666"/>
@@ -419,14 +387,14 @@ Figure 9: Firebase realtime database - Step 4.
 
 Figure 10: Firebase realtime database - Step 5.
 
-- Step 6: Click on "Continute" button.
+- Step 6: Click on the "Continute" button.
 
 <a id="figure11"></a>
 <img src="./md-images/firebase6.png" alt="drawing" width="666"/>
 
 Figure 11: Firebase realtime database - Step 6.
 
-- Step 7: Select the account. you could select your gmail account and then click on "Create Project" button.
+- Step 7: Select the account. You could select your Gmail account and then click on the "Create Project" button.
 
 <a id="figure12"></a>
 <img src="./md-images/firebase7.png" alt="drawing" width="666"/>
@@ -447,42 +415,42 @@ Figure 13: Firebase realtime database - Step 8.
 
 Figure 14: Firebase realtime database - Step 9.
 
-- Step 10: At the dashboard page, you click "Realtime Database" option. It means that when you change your data, your data on the web application will be updated automatically without refreshing the page.
+- Step 10: At the dashboard page, you click the "Realtime Database" option. It means that when you change your data, your data on the web application will be updated automatically without refreshing the page.
 
 <a id="figure15"></a>
 <img src="./md-images/firebase10.png" alt="drawing" width="666"/>
 
 Figure 15: Firebase realtime database - Step 10.
 
-- Step 11: It's time to create a database by clicking on "Create Database" button.
+- Step 11: It's time to create a database by clicking on the "Create Database" button.
 
 <a id="figure16"></a>
 <img src="./md-images/firebase11.png" alt="drawing" width="666"/>
 
 Figure 16: Firebase realtime database - Step 11.
 
-- Step 12: Select the realtime database's location (just need to choose the default one) and then click on "Next" button.
+- Step 12: Select the real-time database's location (just need to choose the default one) and then click on the "Next" button.
 
 <a id="figure17"></a>
 <img src="./md-images/firebase12.png" alt="drawing" width="666"/>
 
 Figure 17: Firebase realtime database - Step 12.
 
-- Step 13: Configure securtity rules for the database. You select test mode because the database is used for learning purpose and click on "Enable" button.
+- Step 13: Configure security rules for the database. You select test mode because the database is used for learning purposes and click on the "Enable" button.
 
 <a id="figure18"></a>
 <img src="./md-images/firebase13.png" alt="drawing" width="666"/>
 
 Figure 18: Firebase realtime database - Step 13.
 
-- Step 14: Click on "Import JSON" option.
+- Step 14: Click on the "Import JSON" option.
 
 <a id="figure19"></a>
 <img src="./md-images/firebase14.png" alt="drawing" width="666"/>
 
 Figure 19: Firebase realtime database - Step 14.
 
-- Step 15: Select "movies.json" from the git repository and click on "Import" button.
+- Step 15: Select "movies.json" from the git repository and click on the "Import" button.
 
 <a id="figure20"></a>
 <img src="./md-images/firebase15.png" alt="drawing" width="666"/>
@@ -497,18 +465,18 @@ Figure 20: Firebase realtime database - Step 15.
 Figure 21: Firebase realtime database - Step 16.
 
 <a id="create-web-application-on-firebase"></a>
-### __7.2. Create Web Application on Firebase.__
+### __6.2. Create Web Application on Firebase.__
 
-After creating realtime database and importing sample data to Firebase, a web application should be created on Firebase. Firebase would return the configuration information. That information will be used later.
+After creating the real-time database and importing sample data to Firebase, a web application should be created on Firebase. Firebase would return the configuration information. That information will be used later.
 
-- Step 1: Click on "setting" icon and choose "Project settings" option.
+- Step 1: Click on the "setting" icon and choose the "Project settings" option.
 
 <a id="figure22"></a>
 <img src="./md-images/firebase17.png" alt="drawing" width="666"/>
 
 Figure 22: Create web application on Firebase - Step 1.
 
-- Step 2: Scroll down to the bottom of the page and choose "web" icon.
+- Step 2: Scroll down to the bottom of the page and choose the "web" icon.
 
 <a id="figure23"></a>
 <img src="./md-images/firebase18.png" alt="drawing" width="666"/>
@@ -522,7 +490,7 @@ Figure 23: Create web application on Firebase - Step 2.
 
 Figure 24: Create web application on Firebase - Step 3.
 
-- Step 4: Save Firebase configuration in somewhere else for later use and click on "Continue to Console" button.
+- Step 4: Save Firebase configuration somewhere else for later use and click on the "Continue to Console" button.
 
 <a id="figure25"></a>
 <img src="./md-images/firebase20.png" alt="drawing" width="666"/>
@@ -530,18 +498,18 @@ Figure 24: Create web application on Firebase - Step 3.
 Figure 25: Create web application on Firebase - Step 4.
 
 <a id="prequesites"></a>
-### __7.3. Prequesites.__
+### __6.3. Prequesites.__
 
-- Step 1: Imported movies.json (in netflix-data folder) to Firebase. We will use that data to build Netflix application.
+- Step 1: Imported movies.json (in the Netflix-data folder) to Firebase. We will use that data to build a Netflix application.
 
-- Step 2: Created the web application on Firebase in order to get Firebase configuration.
+- Step 2: Created the web application on Firebase to get Firebase configuration.
 
 - Step 3: Created a project with name 'netflix-clone' by running 'npx create-react-app netflix-clone'.
 
-- Step 4: Replaced the content of styles.css (in netflix-html-css) to index.css so that we do not need to worry about CSS, we just need to focus on how to learn React by building Netflix.
+- Step 4: Replaced the content of styles.css (in Netflix-HTML-CSS) to index.css so that we do not need to worry about CSS, we just need to focus on how to learn to React by building Netflix.
 
 <a id="build-header-home-page"></a>
-### __7.4. Build Header - Home Page.__
+### __6.4. Build Header - Home Page.__
 
 <a id="figure26"></a>
 <img src="./md-images/netflix-header1.png" alt="drawing" width="666"/>
@@ -550,7 +518,7 @@ Figure 26: Netflix's header - home page.
 
 The following steps describe how to build Netflix's header.
 
-- Step 1: Replace the content of App.js with the following code, open "cmd" or "terminal" or "gitbash", change directory to your project's folder and run "npm start" to launch the project.
+- Step 1: Replace the content of App.js with the following code, open "cmd" or "terminal" or "git-bash", change the directory to your project's folder and run "npm start" to launch the project.
 
 ```js
 function App() {
@@ -593,7 +561,6 @@ function App() {
 
 export default App;
 ```
-
 > 1st NOTE:   
 > - What inside return () is called React Element.
 >
@@ -601,16 +568,16 @@ export default App;
 >
 > - React Element is cheap.
 >
-> - Once React Element is created, they never be mutated.
+> - Once React Element is created, they never are mutated.
 >
 > - As mentioned above, we are writing Javascript along with HTML, we can do that because React provides the concept of JSX (Javascript XML).
 
 > 2nd NOTE:
-> - If you run the code, the Netflix's header would be appeared. 
+> - If you run the code, Netflix's header would have appeared. 
 >
-> - However, we can break down Netflix's header into smaller components in order to reuse them and it would be easy to maintain.
+> - However, we can break down Netflix's header into smaller components to reuse them and it would be easy to maintain.
 >
-> - Components are small UI pieces which will be combined together to build your application.
+> - Components are small UI pieces that will be combined to build your application.
 >
 > - You can imagine you are playing Lego.
 
@@ -619,7 +586,7 @@ export default App;
 
 Figure 27: Netflix's header - home page - 2.
 
-- Step 2: Create "components" folder."components" folder will be used to store components in your application. We should not put everything in src folder, structuring projects helps the developers scale and maintain code easier.
+- Step 2: Create a "components" folder." components" folder will be used to store components in your application. We should not put everything in the src folder, structuring projects helps the developers scale and maintain code easier.
 
 - Step 3: Create Nav.js file in "components/nav" folder with the following code.
 
@@ -695,23 +662,23 @@ export default App;
 > 3rd NOTE:
 > - Now you can see the result would be the same.
 >
-> - You can reuse Nav component and Header component in different places in your application.
+> - You can reuse the Nav component and Header component in different places in your application.
 >
 > - It is one of the advantages of React library - create reusable components.
 
 <a id="build-row-home-page"></a>
-### __7.5. Build Row - Home Page__
+### __6.5. Build Row - Home Page__
 
 <a id="figure28"></a>
 <img src="./md-images/netflix-row1.png" alt="drawing" width="666"/>
 
 Figure 28: Netflix's row - home page.
 
-The above image mentions about the similarities between rows in the home page. They also have title element and list of movies element. Therefore, a "Row" component should be created for reusable.
+The above image mentions the similarities between rows in the home page. They also have a title element and a list of movies element. Therefore, a "Row" component should be created for reusable.
 
-The following steps describe how to build "Row" component.
+The following steps describe how to build the "Row" component.
 
-- Step 1: Like what we have done with Nav component and Header component, you create Row.js file in "components/row folder with the following code.
+- Step 1: Like what we have done with the Nav component and Header component, you create a Row.js file in the "components/row folder with the following code.
 
 ```js
 function Row() {
@@ -826,24 +793,23 @@ function Row() {
 
 export default Row;
 ```
-
 > 4th NOTE:
-> - In the case, we have to create different rows with different data (images, title and so on), we have to dupplicate this component to many "Row" components.
+> - In case, we have to create different rows with different data (images, title, and so on), we have to duplicate this component to many "Row" components.
 >
 > - As mentioned before, __the component should be reusable__. It means that we need to make the current "Row" component be reusable instead of creating a new one.
 
 > 5th NOTE:
-> - We are hardcoding the data in "Row" component.
+> - We are hardcoding the data in the "Row" component.
 >
 > - We need to get some real data to make the application be realistic.
 >
-> - In this course, we need to know how to integrate with Firebase first and then we will comeback to our "Row" component later.
+> - In this course, we need to know how to integrate with Firebase first, and then we will come back to our "Row" component later.
 
 - Step 4: Install Firebase package from npm by running 'npm install --save firebase".
 
-- Step 5: Create "firebase" inside src folder.
+- Step 5: Create "firebase" inside the src folder.
 
-- Step 6: Create "firebase.js" file inside "firebase" folder with the following content.
+- Step 6: Create a "firebase.js" file inside the "firebase" folder with the following content.
 
 ```js
 import firebase from 'firebase';
@@ -865,17 +831,16 @@ export {
 };
 
 ```
-
 > 6th NOTE:
-> - Replace "apiKey" by your api key.
+> - Replace "apiKey" with your API key.
 >
-> - Replace "projectId.firebaseapp.com" by your auth domain.
+> - Replace "projectId.firebaseapp.com" with your auth domain.
 >
-> - Replace "https://databaseName.firebaseio.com" by your database url.
+> - Replace "https://databaseName.firebaseio.com" with your database URL.
 >
-> - Replace "bucket.appspot.com" by your storage bucket.
+> - Replace "bucket.appspot.com" with your storage bucket.
 
-- Step 7: In fact, we should store credentials in .env file (environment file). Env file should not be comitted to your git repository. Therefore, you need to create .env file in your root folder with the following content.
+- Step 7: In fact, we should store credentials in a .env file (environment file). Env file should not be committed to your git repository. Therefore, you need to create a .env file in your root folder with the following content.
 
 ```js
 REACT_APP_FIREBASE_API_KEY=AIzaSyDInCnshdBWbn_0IGLqEgLwM0fg8wLDGGA
@@ -885,9 +850,9 @@ REACT_APP_FIREBASE_STORAGE_BUCKET=netflix-clone-d852d.appspot.com
 ```
 
 > 7th NOTE:
-> - The prefix of your enviroment variables must be "REACT_APP".
+> - The prefix of your environment variables must be "REACT_APP".
 
-- Step 8: After creating .env file, we need to replace content of firebase.js file with the following content.
+- Step 8: After creating the .env file, we need to replace the content of the firebase.js file with the following content.
 
 ```js
 import firebase from 'firebase';
@@ -909,14 +874,11 @@ export {
 };
 
 ```
-
-- Step 9: Import "firebaseDatabase" from "firebase.js" file and write a function in "Row" component to get data from Firebase.
+- Step 9: Import "firebase database" from the "firebase.js" file and write a function in the "Row" component to get data from Firebase.
 
 ```js
-
 ...
 import { firebaseDatabase } from "../../firebase/firebase";
-
 
 function Row() {
   ...
@@ -936,13 +898,13 @@ function Row() {
 ```
 
 > 8th NOTE:
-> - Where do we call the above function in "Row" component ?
+> - Where do we call the above function in the "Row" component?
 >
-> - The best practice is to call the function after the component has been loaded. How do we know about when the component has been loaded ?
+> - The best practice is to call the function after the component has been loaded. How do we know when the component has been loaded?
 >
-> - React provides __"useEffect"__ to help us. __"useEffect"__ is one of built-in React hooks.
+> - React provides __"useEffect"__ to help us. __"useEffect"__ is one of the built-in React hooks.
 
-- Step 10: Import useEffect in "Row" component.
+- Step 10: Import useEffect in the "Row" component.
 
 ```js
 import { useEffect } from "react";
@@ -955,13 +917,12 @@ useEffect(() => {
   fetchMovies(movieType);
 }, []);
 ```
-
 > 9th NOTE:
-> - Wait a minute ! What is "movieType" ??? We did not define it before.
+> - Wait a minute! What is "movieType" ??? We did not define it before.
 >
-> - Please do not worry, we will explain in detail about why do we need "movieType" in here. Firstly, please keep in mind that __we always want to make "Row" component be reusable__.
+> - Please do not worry, we will explain in detail why do we need "movieType" here. Firstly, please keep in mind that __we always want to make the "Row" component be reusable__.
 >
-> - For this reason, we should let the person who is using our "Row" component define the movie type that he/she wants to get from Firebase instead of harcoding it in the "Row" component.
+> - For this reason, we should let the person who is using our "Row" component define the movie type that he/she wants to get from Firebase instead of hardcoding it in the "Row" component.
 >
 > - We want something like this.
 >
@@ -976,7 +937,7 @@ useEffect(() => {
 > ```
 
 > 10th NOTE:
-> - It is time for "props" comes to play.
+> - It is time for "props" to come to play.
 >
 > - "props" stands for properties.
 >
@@ -984,9 +945,9 @@ useEffect(() => {
 >
 > - "props" would be passed from the parent component to the child component.
 >
-> - We can imagine "props" object is similar to function's parameters.
+> - We can imagine the "props" object is similar to the function's parameters.
 
-- Step 12: Define props as parameter for Row function.
+- Step 12: Define props as the parameter for the Row function.
 
 ```js
 function Row(props) {...}
@@ -1003,7 +964,7 @@ useEffect(() => {
 <h2>{title}</h2>
 ```
 
-- Step 14: Pass custom data from "App" component to the "Row" compnent with the following code.
+- Step 14: Pass custom data from the "App" component to the "Row" component with the following code.
 
 ```js
 <Row title="Netflix Originals" type="netflix-originals" />
@@ -1017,18 +978,18 @@ useEffect(() => {
 ```
 
 > 11th NOTE: 
-> - We are almost done ! The question is how to display list of movies on JSX after getting data from Firebase.
+> - We are almost done! The question is how to display the list of movies on JSX after getting data from Firebase.
 >
-> - We need to find the way to store the data and make the component be re-rendered after we have movies from Firebase.
+> - We need to find a way to store the data and make the component be re-rendered after we have movies from Firebase.
 >
 > - Fortunately, React provides __useState__ to help us achieve that.
 
 > 12th NOTE: 
-> - State is an object holds information that may be changed over the lifetime of the component.
+> - State is an object that holds information that may be changed over the lifetime of the component.
 >
 > - It is private and fully controlled by the component.
 
-- Step 15: We need to import "useState" in "Row" component to define the movies state.
+- Step 15: We need to import the "estate" in the "Row" component to define the movie's state.
 
 ```js
 import { useEffect, useState } from "react";
@@ -1044,7 +1005,8 @@ function Row(props) {
 }
 ```
 
-- Step 17: Update "fetchMovies" function to put data to the state.
+- Step 17: Update the "fetchMovies" function to put data to the state.
+
 
 ```js
 const fetchMovies = (movieType) => {
@@ -1060,8 +1022,8 @@ const fetchMovies = (movieType) => {
 ```
 
 > 13th NOTE:
-> - In the case, we have data in "movies" state, the question is how to display list of movies on JSX. Because we are displaying a long list of hardcoding image tags.
-> - We can use map() function in Javascript to display list of data on JSX.
+> - In case, we have data in the "movies" state, the question is how to display the list of movies on JSX. Because we are displaying a long list of hardcoding image tags.
+> - We can use the map() function in Javascript to display the list of data on JSX.
 
 - Step 18: Display data in "movie" state on JSX by using map() function.
 
@@ -1167,31 +1129,30 @@ function App() {
 export default App;
 ```
 <a id="apply-react-router"></a>
-## __7.6. Apply React Router.__
+## __6.6. Apply React Router.__
 
-In fact, Netflix application may contain many pages not just home page. Hence, we should find the efficency way to navigate between pages in our React application. __React Router__ is a powerful routing library which can help us to achieve that.
+The Netflix application may contain many pages, not just the home page. Hence, we should find an efficient way to navigate between pages in our React application. __React Router__ is a powerful routing library that can help us to achieve that.
 
 The following steps will demonstrate how to integrate React Router in our Netflix application and how we re-structure our components to support navigating between pages:
 
 - Step 1: Install "react-router-dom" library by running "npm install --save react-router-dom".
 
-
 > 14th NOTE:
 >
-> - We are writing code to build the home page in App.js file.
+> - We are writing code to build the home page in the App.js file.
 >
-> - In fact, we should not do that. We should create "Home" component to store code of the home page.
+> - In fact, we should not do that. We should create a "Home" component to store the code of the home page.
 >
->- App.js should be used to store common information of the application such as routing, common components (navbar, header, footer, etc) and so on.
+>- App.js should be used to store common information of the application such as routing, common components (navbar, header, footer, etc), and so on.
 >
-> - The diagram below demonstrates about how our "Home" component looks like.
+> - The diagram below demonstrates what our "Home" component looks like.
 >
 > <a id="figure29"></a>
 > <img src="./md-images/netflix-home1.png" alt="drawing" width="666"/>
 >
 >Figure 29: Netflix's home component.
 
-- Step 2: Create Home.js file in "components" folder with the following code.
+- Step 2: Create a Home.js file in the "components" folder with the following code.
 
 ```js
 import Nav from "../nav/Nav";
@@ -1223,7 +1184,7 @@ function Home() {
 export default Home;
 ```
 
-- Step 3: Update App.js file with the following code.
+- Step 3: Update the App.js file with the following code.
 
 ```js
 import {
@@ -1254,58 +1215,58 @@ export default App;
 >
 > - As mentioned above, App.js should store common information of the application. In this case, it stores information about routing.
 >
-> - "Switch" component is similar to switch-case in programming. According to the example above, the application will show the home page to the end user if the current route is '/'
+> - "Switch" component is similar to the switch-case in programming. According to the example above, the application will show the home page to the end-user if the current route is '/'
 >
-> - Following that, we can define many routes in App.js file and specify corresponding component for each route. We will do that in the following section.
+> - Following that, we can define many routes in the App.js file and specify the corresponding component for each route. We will do that in the following section.
 
 <a id="set-up-firebase-authentication"></a>
-## __7.7. Set Up Firebase Authentication.__
+## __6.7. Set Up Firebase Authentication.__
 
-Before building login page, we need to set up Firebase Authentication first. There are different sign in methods which could be integrated in the application. In this course, we will choose "Email/Password" sign in method. The following steps will describe how to set up that method in Firebase.
+Before building the login page, we need to set up Firebase Authentication first. Different sign-in methods could be integrated into the application. In this course, we will choose the "Email/Password" sign-in method. The following steps will describe how to set up that method in Firebase.
 
-- Step 1: Click on "Authentication" option.
+- Step 1: Click on the "Authentication" option.
 
 <a id="figure30"></a>
 <img src="./md-images/firebase21.png" alt="drawing" width="666"/>
 
 Figure 30: Firebase authentication - Step 1.
 
-- Step 2: Click on "Get started" button.
+- Step 2: Click on the "Get started" button.
 
 <a id="figure31"></a>
 <img src="./md-images/firebase22.png" alt="drawing" width="666"/>
 
 Figure 31: Firebase authentication - Step 2.
 
-- Step 3: Choose "Sign-in method" tab.
+- Step 3: Choose the "Sign-in method" tab.
 
 <a id="figure32"></a>
 <img src="./md-images/firebase23.png" alt="drawing" width="666"/>
 
 Figure 32: Firebase authentication - Step 3.
 
-- Step 4: Click on "Edit" icon on "Email/Password" row.
+- Step 4: Click on the "Edit" icon on the "Email/Password" row.
 
 <a id="figure33"></a>
 <img src="./md-images/firebase24.png" alt="drawing" width="666"/>
 
 Figure 33: Firebase authentication - Step 4.
 
-- Step 5: Click on "Enable" toggle button and click on "Save" button.
+- Step 5: Click on the "Enable" toggle button and click on the "Save" button.
 
 <a id="figure34"></a>
 <img src="./md-images/firebase25.png" alt="drawing" width="666"/>
 
 Figure 34: Firebase authentication - Step 5.
 
-- Step 6: Set up an account for using later, choose "Users" tab and click on "Add User" button.
+- Step 6: Set up an account for use later, choose the "Users" tab, and click on the "Add User" button.
 
 <a id="figure35"></a>
 <img src="./md-images/firebase26.png" alt="drawing" width="666"/>
 
 Figure 35: Firebase authentication - Step 6.
 
-- Step 7: Input user's name and password and click on "Add User" button.
+- Step 7: Input the user's name and password and click on the "Add User" button.
 
 <a id="figure36"></a>
 <img src="./md-images/firebase27.png" alt="drawing" width="666"/>
@@ -1319,7 +1280,7 @@ Figure 36: Firebase authentication - Step 7.
 
 Figure 37: Firebase authentication - Step 8.
 
-- Step 9: We need to update "firebase.js" file for later use with the following code.
+- Step 9: We need to update the "firebase.js" file for later use with the following code.
 
 ```js
 import firebase from 'firebase';
@@ -1341,20 +1302,19 @@ export {
   firebaseDatabase,
   firebaseAuth
 };
-
 ```
 
 <a id="build-netflix-login-page"></a>
-## __7.8. Build Netflix Login Page.__
+## __6.8. Build Netflix Login Page.__
 
 <a id="figure38"></a>
 <img src="./md-images/netflix-login1.png" alt="drawing" width="666"/>
 
 Figure 38. Login page - Netflix.
 
-The above image describes how login page is separated into smaller components. In this case, we have a wrapper component which is called "Login" component. On the other hand, "Nav" component can be reused and "Login Form" component should be created in order to create sign-in form. The following steps will help us achieve that step by step.
+The above image describes how the login page is separated into smaller components. In this case, we have a wrapper component which is called the "Login" component. On the other hand, the "Nav" component can be reused and the "Login Form" component should be created to create a sign-in form. The following steps will help us achieve that step by step.
 
-- Step 1: Create LoginForm.js in "component/login" folder with the following code.
+- Step 1: Create LoginForm.js in the "component/login" folder with the following code.
 
 ```js
 function LoginForm() {
@@ -1419,9 +1379,9 @@ export default Login;
 
 > 16th NOTE:
 > 
-> - The best part is about "Nav" component can be reused without creating a new one. It is one of the advantages of React and component based UI.
+> - The best part is about the "Nav" component can be reused without creating a new one. It is one of the advantages of React and component-based UI.
 > 
-> - Login component was created. However, how the end user can use it in the web application. We need to set up a new route in App.js so that the end user can access to that route and use the login page.
+> - The login component was created. However, how the end-user can use it in the web application. We need to set up a new route in App.js so that the end-user can access that route and use the login page.
 
 - Step 3: Add "/login" route in App.js. App.js should look like this.
 
@@ -1455,11 +1415,11 @@ export default App;
 
 > 17th NOTE:
 >
-> - If you run the project and access '/login' route, you can see the login page.
+> - If you run the project and access the '/login' route, you can see the login page.
 >
 > - We have finished dividing the login page into smaller components. The next part is how to detect when the current user clicks on the "Sign In" button.
 
-- Step 4: Replace "Login Form" component with the following code.
+- Step 4: Replace the "Login Form" component with the following code.
 
 ```js
 function LoginForm() {
@@ -1507,7 +1467,7 @@ export default LoginForm;
 
 > 18th NOTE:
 >
-> - In the code above, "onClick={login}" was added to the "Sign In" button, "login" function was created. It means that when the current user clicks on the "Sign In" button. "login" function will be triggered and the message will be logged to the console.
+> - In the code above, "onClick={login}" was added to the "Sign In" button, "login" function was created. It means that when the current user clicks on the "Sign In" button. the "login" function will be triggered and the message will be logged to the console.
 >
 > - The image below describes the result of the above code.
 >
@@ -1516,9 +1476,9 @@ export default LoginForm;
 >
 > Figure 39. Login page - 2 - Netflix.
 >
-> - The next part is to get email and password from input fields and then send to Firebase.
+> - The next part is to get email and password from input fields and then send them to Firebase.
 
-- Step 5: Replace "Login Form" component with the following code.
+- Step 5: Replace the "Login Form" component with the following code.
 
 ```js
 function LoginForm() {
@@ -1588,7 +1548,7 @@ export default LoginForm;
 >
 > - What is "e" ? React provides the concept of __Synthetic Event__.
 >
-> - SyntheticEvent is a cross-browser wrapper around the browser's native event. It's API is same as the browser's native event, including stopPropagation() and preventDefault(), except the events work identically across all browsers.
+> - SyntheticEvent is a cross-browser wrapper around the browser's native event. Its API is the same as the browser's native event, including stopPropagation() and preventDefault(), except the events work identically across all browsers.
 >
 > - The input's value can be get by using __e.target.value__
 >
@@ -1599,7 +1559,7 @@ export default LoginForm;
 >
 > Figure 40. Login page - 3 - Netflix.
 >
-> - When the current user is typing email or password. We need to store those values in somewhere else. We should store them in state. It means that when the user changes the input's values, we will update the corresponding state.
+> - When the current user is typing an email or password. We need to store those values somewhere else. We should store them in the state. It means that when the user changes the input's values, we will update the corresponding state.
 
 - Step 6: Import "useState" and define "email" and "password" state.
 
@@ -1628,9 +1588,9 @@ function LoginForm() {
 
 > 20th NOTE:
 >
-> - Whenever we access "email" state and "password" state, we can get the latest value.
+> - Whenever we access the "email" state and "password" state, we can get the latest value.
 >
-> - The remaining task is to send those values to Firebase when the current user clicks on "Sign In" button.
+> - The remaining task is to send those values to Firebase when the current user clicks on the "Sign In" button.
 
 - Step 7: Import "firebaseAuth" from "firebase.js" file and then update "login" function to send "email" state and "password" state to Firebase.
 
@@ -1653,13 +1613,13 @@ const login = () => {
   });
 }
 ```
-> 21th NOTE:
+> 21st NOTE:
 >
-> - if email and password are valid. Firebase would return user's information and vice versa.
+> - if email and password are valid. Firebase would return the user's information and vice versa.
 >
-> - You can do anything you want with that value, for example, store the information in localStorage for using later or something like that.
+> - You can do anything you want with that value, for example, store the information in localStorage for use later or something like that.
 >
-> - In this case, we are trying to show the user's information on console log.
+> - In this case, we are trying to show the user's information on the console log.
 >
 > - If you run the code, your result should be like this.
 >
@@ -1669,27 +1629,27 @@ const login = () => {
 > Figure 41. Login page - 4 - Netflix.
 
 <a id="deploy-react-to-firebase"></a>
-## __9. Deploy React to Firebase.__
+## __7. Deploy React to Firebase.__
 
 It is time to make our project live on the internet. The following steps will describe how to deploy our application to Firebase.
 
-- Step 1: Change directory to the project's folder and run "npm build" to build production version of the project.
+- Step 1: Change directory to the project's folder and run "npm build" to build the production version of the project.
 
-- Step 2: Go to Firebase console and choose "Hosting" option.
+- Step 2: Go to the Firebase console and choose the "Hosting" option.
 
 <a id="figure42"></a>
 <img src="./md-images/firebase29.png" alt="drawing" width="666"/>
 
 Figure 42. Deploy React to Firebase - Step 2.
 
-- Step 3: Click on "Get started" button.
+- Step 3: Click on the "Get started" button.
 
 <a id="figure42"></a>
 <img src="./md-images/firebase30.png" alt="drawing" width="666"/>
 
 Figure 43. Deploy React to Firebase - Step 3.
 
-- Step 4: Change directory to the project's folder and run "npm install -g firebase-tools" and then click on "Next" button.
+- Step 4: Change directory to the project's folder and run "npm install -g firebase-tools" and then click on the "Next" button.
 
 <a id="figure43"></a>
 <img src="./md-images/firebase31.png" alt="drawing" width="666"/>
@@ -1721,36 +1681,36 @@ Figure 47. Deploy React to Firebase - Step 6.
 Figure 48. Deploy React to Firebase - Step 6.
 
 > Final NOTE:
-> -  Now you can access the url on cmd to view your result.
+> -  Now you can access the URL on cmd to view your result.
 >
 > - In my case, It is https://netflix-clone-e79a1.web.app
 
 <a id="summary"></a>
-## __Summary__
+## __8. Summary__
 
 - JSX (Javascript XML): helps us to write Javascript along with HTML.
 
 - React Elements: describe what would be appeared on the screen.
 
-- React Component: Small pieces of UI which could be reusable and combined together to build the application.
+- React Component: Small pieces of UI which could be reusable and combined to build the application.
 
-- useEffect: performs side effect in the application, for example, interact with the apis, execute asynchronous operattions and so on.
+- useEffect: performs side effects in the application, for example, interacting with the APIs, executing asynchronous operations, and so on.
 
 - useState: defines the state in the application.
 
 - Props: passed from the parent component to the child component, its syntax is similar to HTML attribute.
 
-- React Router: useful routing library can be used to navigate between pages.
+- React Router: useful routing library that can be used to navigate between pages.
 
-Thank you so much for taking the course. I hope that you could understand about important concepts in React and you can build many real-life projects by using React (as front-end) and Firebase (as back-end) in order to solve many problems and make our life become better.
+Thank you so much for taking the course. I hope that you could understand important concepts in React and you can build many real-life projects by using React (as front-end) and Firebase (as back-end) to solve many problems and make our life become better.
 
 <a id="useful-resources-to-learn-react"></a>
-## __Useful Resources to Learn React.__
+## __9. Useful Resources to Learn React.__
 
 [1]. https://reactjs.org/docs/getting-started.html.
 
 <a id="references"></a>
-## __References__
+## __10. References__
 
 [1]. https://reactjs.org/docs/getting-started.html. \
 [2]. https://firebase.google.com/docs/database. \
