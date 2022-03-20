@@ -1,7 +1,3 @@
-/**
- * Github: https://github.com/hieptl/netflix-clone.
- * Dev.to: https://dev.to/hieptl/learn-react-by-building-netflix-1127
- */
 // import custom components.
 import Nav from "../nav/Nav";
 import Header from "../header/Header";

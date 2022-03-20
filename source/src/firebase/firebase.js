@@ -1,7 +1,3 @@
-/**
- * Github: https://github.com/hieptl/netflix-clone.
- * Dev.to: https://dev.to/hieptl/learn-react-by-building-netflix-1127
- */
 // import firebase.
 import firebase from "firebase";
 // initialize firebase app in the application.
@@ -12,7 +8,7 @@ const app = firebase.initializeApp({
   // form https://[databaseName].[region].firebasedatabase.app.
   // For example, https://your-database-123.europe-west1.firebasedatabase.app
   databaseURL: `${process.env.REACT_APP_FIREBASE_DATABASE_URL}`,
-  storageBucket: `${process.env.REACT_APP_FIREBASE_STORAGE_BUCKET}`
+  storageBucket: `${process.env.REACT_APP_FIREBASE_STORAGE_BUCKET}`,
 });
 // create firebase database.
 const firebaseDatabase = app.database();

@@ -1,18 +1,10 @@
-/**
- * Github: https://github.com/hieptl/netflix-clone.
- * Dev.to: https://dev.to/hieptl/learn-react-by-building-netflix-1127
- */
 // import react router dom.
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route
-} from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 // import custom components.
-import Home from './components/home/Home';
-import Login from './components/login/Login';
+import Home from "./components/home/Home";
+import Login from "./components/login/Login";
 // import global styling.
-import './index.css';
+import "./index.css";
 // create App components.
 function App() {
   return (
