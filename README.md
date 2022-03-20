@@ -2,7 +2,7 @@
 
 ![](./images/1.png)
 
-> Click :star: if you like the project. Pull Request are highly appreciated :heart:
+> Click :star: if you like the project. Pull Requests are highly appreciated.
 
 I'm Hiep. I work as a full-time software engineer. Most of my open-source projects are focused on one thing - to help people learn 📚.
 
