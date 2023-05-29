@@ -6,11 +6,10 @@ import { firebaseDatabase } from "../../firebase/firebase";
  * create Row component.
  * @param {*} props which are passed to the Row component.
  */
-function Row(props) {
+// take props as destructured parameters
+function Row({ title, movieType }) {
   // create "movies" state to store list of movies from Firebase.
   const [movies, setMovies] = useState([]);
-  // get props.
-  const { title, movieType } = props;
   // leafRoot to get data from Firebase.
   const leafRoot = "movies";
 
