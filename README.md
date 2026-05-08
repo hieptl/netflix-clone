@@ -1569,3 +1569,12 @@ Thank you so much for taking the course. I hope that you could understand import
 [2]. https://firebase.google.com/docs/database. \
 [3]. https://firebase.google.com/docs/auth/web/password-auth. \
 [4]. https://firebase.google.com/docs/hosting.
+
+
+
+Netflix Clone 🎬
+
+A modern and responsive Netflix Clone built using React.js and Firebase.
+This project demonstrates real-world React concepts such as reusable components, hooks, routing, authentication, and Firebase integration.
+
+Designed for beginners to learn modern frontend development while building a real-world streaming platform UI.
